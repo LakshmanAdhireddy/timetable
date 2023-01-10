@@ -125,7 +125,7 @@ Execute the program
 ~~~
 
 # OUPUT
-    ![Screenshot (16)](https://user-images.githubusercontent.com/118707265/211453392-6d95b5c0-fb61-4dac-bd15-2df6edb59cef.png)
+![WhatsApp Image 2023-01-10 at 08 44 42](https://user-images.githubusercontent.com/118707265/211454291-49ee341a-1125-4ba6-bf7e-c49013a90380.jpg)
 
 Result
 the program executed
