@@ -126,3 +126,6 @@ Execute the program
 
 # OUPUT
 ![Screenshot (16)](https://user-images.githubusercontent.com/118707265/211450865-5328f6f3-5852-4538-b55f-13acb360194a.png)
+
+Result
+the program executed
