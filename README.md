@@ -15,117 +15,94 @@ Execute the program
 
 
 # CODE
-~~~
-~~~
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>time table</title>
-    <html>
-        <head>
-        <title>TIME TABLE</title>
-        </head>
-        
-        <body>
-           <table border = "1" cellspacing="3" bordercolor="red" >
-             <tr>
-                <th colspan ="10">TIME TABLE</th>
-             </tr>
-             <tr>
-             <th colspan="4" > Reference Number : 22004423</th><th colspan="6">Name : Lakshman reddy</th>
-             </tr>
-             <tr>
-                <th>DAYS</th>
-                <th>8:00-9:00</th>
-                <th>9:00-10:00</th>
-                <th>10:00-11:00</th>
-                <th>11:00-12:00</th>
-                <th>12:00-1:00</th>
-                <th>1:00-2:00</th>
-                <th>2:00-3:00</th>
-                <th>3:00-4:30</th>
-             </tr>
-             <tr>
-                <th>Monday</th>
-                <th>19AI414/karthi Govindaraju</th>
-                <th>19AI414/karthi Govindaraju</th>
-                <th>19EN612/Varghese Y</th>
-                <th>19EN612/Varghese Y</th>
-                <th>LUNCH-BREAK</th>
-                <th>--</th>
-                <th>--</th>
-                <th>19EN101/Anne Dorthy</th>
-              </tr>
-              <tr>
-                <th>Tuesday</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19MA220/Jaba Jasphin E.T</th>
-                <th>19MA220/Jaba Jasphin E.T</th>
-                <th>LUNCH-BREAK</th>
-                <th></th>
-                <th></th>
-                <th>19CY205/Mettilda M</th>
-              </tr>
-              <tr>
-                <th>Wednesday</th>
-                <th>--</th>
-                <th>--</th>
-                <th>19MA221/Jaba Jasphin E.T</th>
-                <th>19MA221/Jaba Jasphin E.T</th>
-                <th>LUNCH-BREAK</th>
-                <th>--</th>
-                <th>--</th>
-                <th>19EN612/Varghese Y</th>
-                
-              </tr>
-              <tr>
-                <th>Thursday</th>
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-                <th>LUNCH-BREAK</th>
-                <th>19CY205/Mettilda M</th>
-                <th>19CY205/Mettilda M</th>
-                <th>19MA220/Jaba Jasphin E.T</th>
-              </tr>
-              <tr>
-                <th>Friday</th>
-                <th>19EY701/Saranya V</th>
-                <th>19EY701/Saranya V</th>
-                <th>19AI301/Jaba Jasphin E.T</th>
-                <th>19AI301/Jaba Jasphin E.T</th>
-                <th>LUNCH-BREAK</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19EN101/Anne Dorthy</th>
-                </tr>
-            </table>
-                <ol>
-                  <center>
-                    <LI>19AI414- FUNDAMENTAL OF WEB APPLICATION</LI>
-                    <LI>19MA220 - MATHEMATICS FOR ARTIFICAL INTELLIGENCE</LI>
-                    <LI>19MA221 - LINEAR ALGEBRA LABORATORY</LI>
-                    <LI>19CY205 - PRINCIPLES OF CHEMISTRY IN ENGINEERING</LI>
-                    <LI>19AI301 - PYTHON PROGRAMMING</LI>
-                    <LI>19EN101 - COMMUNICATIVE ENGLISH</LI>
-                    <LI>19EY701 - SOFT SKILLS</LI>
-                    <LI>19EN612 - GERMAN BASICS</LI>
-                  </center>
-               
-                </ol>
-            
-        </body>
-        </html>
+<TABLE BORDER="3" width="750" bgcolor="cyan" cellspacing="10" cellpadding="10"> 
+<TR> 
+	<TH colspan="8" align="center" bgcolor="DARK BLUE">TIME TABLE</TH>
+</TR>   
+<TR> 
+      <TH colspan="2" align="left" bgcolor="YELLOW">REFERENCE NUMBER</TH>
+      <TH colspan="2" align="center" bgcolor="ORANGE">22004423</TH>
+      <TH colspan="2" align="right" bgcolor="LIGHT green">NAME</TH>
+      <TH colspan="2" align="right" bgcolor="pink">LAKSHMAN REDDY</TH>
+</TR>
+<TR>
+	<TD width="25%">DAYS</TD> 
+	<TD width="25%">(8.00-9.00)</TD>
+	<TD width="25%">(9.00-10.00)</TD>
+      <TD width="25%">(10.00-11.00)</TD>
+      <TD width="25%">(11.00-12.00)</TD>
+      <TD width="25%">lunch break(12.00-1.00)</TD>
+      <TD width="25%">(1.00-2.00)</TD>
+      <TD width="25%">(2.00-3.00)</TD>
+      <TD width="25%">(3.00-4.00)</TD>
+      <TD width="25%">(4.00-5.00)</TD>
 
-~~~
+</TR>
+<TR>
+      <TD width="25%">MONDAY</TD>
+      <TD width="25%">WEB</TD>
+      <TD width="25%">WEB</TD>
+      <TD width="25%">MATHS</TD>
+      <TD width="25%">MATHS</TD>
+      <TD width="25%">      </TD>
+      <TD width="25%">SOFT SKILLS</TD>
+      <TD width="25%">SOFT SKILLS</TD>
+      <TD width="25%">GERMAN</TD>
+      <TD width="25%">GERMAN</TD>
+</TR>
+<TR>
+      <TD width="25%">TUESDAY</TD>
+      <TD width="25%">WEB</TD>
+      <TD width="25%">WEB</TD>
+      <TD width="25%">YOGA</TD>
+      <TD width="25%">YOGA</TD>
+      <TD width="25%">      </TD>
+      <TD width="25%">ENGLISH</TD>
+      <TD width="25%">ENGLISH</TD>
+      <TD width="25%">PYTHON</TD>
+      <TD width="25%">PYTHON</TD>
+</TR>
+<TR>
+      <TD width="25%">WEDNESDAY</TD>
+      <TD width="25%">MATHS</TD>
+      <TD width="25%">MATHS</TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">   </TD>
+</TR>
+<TR>
+      <TD width="25%">THRUSDAY</TD>
+      <TD width="25%">    </TD>
+      <TD width="25%">   </TD>
+      <TD width="25%">  </TD>
+      <TD width="25%">PHYSICS</TD>
+      <TD width="25%">MENTOR MEETING</TD>
+      <TD width="25%">GERMAN</TD>
+      <TD width="25%">GERMAN</TD>
+      <TD width="25%">PYTHON</TD>
+      <TD width="25%">PYTHON</TD>
+</TR>
+<TR>
+      <TD width="25%">FRIDAY</TD>
+      <TD width="25%">    </TD>
+      <TD width="25%">    </TD>
+      <TD width="25%">PHYSICS</TD>
+      <TD width="25%">PHYSICS</TD>
+      <TD width="25%">      </TD>
+      <TD width="25%">WEB</TD>
+      <TD width="25%">WEB</TD>
+      <TD width="25%">ENGLISH</TD>
+      <TD width="25%">ENGLISH</TD>
+ </TR>
+</TABLE>
 
-# OUPUT
-![WhatsApp Image 2023-01-10 at 08 44 42](https://user-images.githubusercontent.com/118707265/211454291-49ee341a-1125-4ba6-bf7e-c49013a90380.jpg)
+#OUTPUT
+[Tables.pdf](https://github.com/LakshmanAdhireddy/timetable/files/10381535/Tables.pdf)
 
-Result
-the program executed
+
+
+
