@@ -125,5 +125,4 @@ Execute the program
 ~~~
 
 # OUPUT
-  ![Screenshot (16)](https://user-images.githubusercontent.com/118707265/211240310-942902dd-0ba1-46cf-9f1b-ae98ac836a6c.png)
-#RESULT Timetable is successfully created.
+![Screenshot (16)](https://user-images.githubusercontent.com/118707265/211450865-5328f6f3-5852-4538-b55f-13acb360194a.png)
