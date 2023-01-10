@@ -102,6 +102,8 @@ Execute the program
 
 #OUTPUT
 [Tables.pdf](https://github.com/LakshmanAdhireddy/timetable/files/10381535/Tables.pdf)
+#RESULT
+The table is successfully created
 
 
 
