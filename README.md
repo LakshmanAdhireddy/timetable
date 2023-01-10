@@ -125,7 +125,8 @@ Execute the program
 ~~~
 
 # OUPUT
-![Screenshot (16)](https://user-images.githubusercontent.com/118707265/211450865-5328f6f3-5852-4538-b55f-13acb360194a.png)
+![image](https://user-images.githubusercontent.com/118707265/211452974-d6ced5f0-98b8-417a-a111-fce0ade4638e.png)
+
 
 Result
 the program executed
