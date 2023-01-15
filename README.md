@@ -13,96 +13,91 @@ Add your timetable
 ### STEP 4
 Execute the program
 
-
 # CODE
-<TABLE BORDER="3" width="750" bgcolor="cyan" cellspacing="10" cellpadding="10"> 
-<TR> 
-	<TH colspan="8" align="center" bgcolor="DARK BLUE">TIME TABLE</TH>
-</TR>   
-<TR> 
-      <TH colspan="2" align="left" bgcolor="YELLOW">REFERENCE NUMBER</TH>
-      <TH colspan="2" align="center" bgcolor="ORANGE">22004423</TH>
-      <TH colspan="2" align="right" bgcolor="LIGHT green">NAME</TH>
-      <TH colspan="2" align="right" bgcolor="pink">LAKSHMAN REDDY</TH>
-</TR>
-<TR>
-	<TD width="25%">DAYS</TD> 
-	<TD width="25%">(8.00-9.00)</TD>
-	<TD width="25%">(9.00-10.00)</TD>
-      <TD width="25%">(10.00-11.00)</TD>
-      <TD width="25%">(11.00-12.00)</TD>
-      <TD width="25%">lunch break(12.00-1.00)</TD>
-      <TD width="25%">(1.00-2.00)</TD>
-      <TD width="25%">(2.00-3.00)</TD>
-      <TD width="25%">(3.00-4.00)</TD>
-      <TD width="25%">(4.00-5.00)</TD>
-
-</TR>
-<TR>
-      <TD width="25%">MONDAY</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">      </TD>
-      <TD width="25%">SOFT SKILLS</TD>
-      <TD width="25%">SOFT SKILLS</TD>
-      <TD width="25%">GERMAN</TD>
-      <TD width="25%">GERMAN</TD>
-</TR>
-<TR>
-      <TD width="25%">TUESDAY</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">YOGA</TD>
-      <TD width="25%">YOGA</TD>
-      <TD width="25%">      </TD>
-      <TD width="25%">ENGLISH</TD>
-      <TD width="25%">ENGLISH</TD>
-      <TD width="25%">PYTHON</TD>
-      <TD width="25%">PYTHON</TD>
-</TR>
-<TR>
-      <TD width="25%">WEDNESDAY</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-</TR>
-<TR>
-      <TD width="25%">THRUSDAY</TD>
-      <TD width="25%">    </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">  </TD>
-      <TD width="25%">PHYSICS</TD>
-      <TD width="25%">MENTOR MEETING</TD>
-      <TD width="25%">GERMAN</TD>
-      <TD width="25%">GERMAN</TD>
-      <TD width="25%">PYTHON</TD>
-      <TD width="25%">PYTHON</TD>
-</TR>
-<TR>
-      <TD width="25%">FRIDAY</TD>
-      <TD width="25%">    </TD>
-      <TD width="25%">    </TD>
-      <TD width="25%">PHYSICS</TD>
-      <TD width="25%">PHYSICS</TD>
-      <TD width="25%">      </TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">ENGLISH</TD>
-      <TD width="25%">ENGLISH</TD>
- </TR>
-</TABLE>
+~~~
+<html>
+<head>
+<title>TIME TABLE</title>
+</head>
+<body>
+<table border = "8" cellspacing="3" bordercolor="BLUE"
+bgcolor="GREY">
+<ing src="logo.png">
+<tr>
+<th colspan="8">TIME TABLE</th>
+</tr>
+<tr>
+<th colspan="2">Reference number:</th>
+<th colspan="2" align="left">22004423</th>
+<th colspan="2">Name:<th>
+<th colspan="2" align="left">Lakshman reddy</th>
+<tr>
+<th>DAYS</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+</tr>
+<tr>
+<td>MONDAY</td>
+<td colspan="2">Environmental Science( 19MC802 )</td>
+<td colspan="2">Linear Algebra Laboratory( 19MA221 )</td>
+<th rowspan="3">LUNCH BREAK</th>
+<td colspan="2">Mathematics for Artificial Intelligence( 19MA220 )</td>
+</tr>
+<td>TUESDAY</td>
+<td colspan="2">Web Technology Laboratory( 19AI402 )</td>
+<td colspan="2">Engineering Mechanics and Product Development( 19AI303 )</td>
+<td colspan="2">Engineering Mechanics and poduct Development( 19AI303 )</td>
+</tr>
+<td>WEDNESDAY</td>
+<td colspan="2">Fundamentals of Web Technology( 19AI401) </td>
+<td colspan="2">Mathematics for Artificial Intelligence( 19MA220 )</td>
+<td colspan="2">no class</td>
+</tr>
+<td>THURSDAY</td>
+<td colspan="2">Engineering Mechanics and Product Development( 19AI303 )
+</td>
+<td colspan="2">Python Programming( 19AI301 )</td>
+<td> Mentoring</td>
+<td colspan="2">Engineering Design and Modeling( 19AI302 )</td>
+</tr>
+<<<<<<< HEAD
+  
+  	     <td>WEDNESDAY</td>
+             <td colspan="2">Fundamentals of Web Technology( 19AI401) </td>
+             <td colspan="2">Mathematics for Artificial Intelligence( 19MA220 )</td>
+             <td colspan="2">no class</td>
+         </tr>
+	     <td>THURSDAY</td>
+             <td colspan="2">Engineering Mechanics and Product Development( 19AI303 )</td>
+             <td colspan="2">Python Programming( 19AI301 )</td>
+             <td>  Mentoring</td>
+             <td colspan="2">Engineering Design and Modeling( 19AI302 )</td>
+         </tr>  
+	     <td>FRIDAY</td>
+             <td colspan="2">Fundamentals of Web Technology( 19AI401)</td>
+             <td colspan="2">Python Programming( 19AI301 )</td>
+             <td></td>
+             <td colspan="5">System of Numerical and Logical Terminologies( 19EY703 )</td>
+          </tr>  
+	     <td>SATURDAY</td>
+             <td colspan="7" align="center">LEAVE</td> 
+          </tr>  
+	     <td>SUNDAY</td>
+             <td colspan="7" align = "center">LEAVE</td>           
+      </table>
+   </body>
+</html>
+~~~
 
 #OUTPUT
-[Tables.pdf](https://github.com/LakshmanAdhireddy/timetable/files/10381535/Tables.pdf)
-```
+![timetables](https://user-images.githubusercontent.com/118707265/212521259-54396b78-b9b8-4286-b996-a34f87f57fee.png)
+
+
 #RESULT
 The table is successfully created
 
